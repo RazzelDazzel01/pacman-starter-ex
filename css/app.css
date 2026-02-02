@@ -1,0 +1,67 @@
+body {
+  background-color: black;
+  color:white;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.msg{
+  position: absolute;
+  display: none;
+
+  top: 80px;
+  height: 415px;
+  width: 430px;
+}
+
+.game-over{
+  position: absolute;
+  display: block;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  height: 150px;
+  width: 200px;
+
+  text-align: center;
+  font-size: 30px;
+  color: black;
+
+  background-color: yellow;
+  opacity: 90%;
+}
+
+.msg-title{
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  
+}
+
+.restart-game{
+  position: absolute;
+
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  height: 30px;
+  width: 120px;
+
+  font-size: 16px;
+
+}
+
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
